@@ -11,7 +11,7 @@ export default function ProtectedRoute({ component: Component, ...rest }) {
       {cpe !== null ? (
         <Route {...rest} render={(props) => <Component {...props} />} />
       ) : (
-        <Redirect to="/home" />
+        <Redirect to="/" />
       )}
     </Fragment>
   );

@@ -19,6 +19,7 @@
     "sweetalert2": "^10.12.5",
     "web-vitals": "^0.2.4"
   },
+  "homepage": "http://testbuscacpe.clickdata.pe/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
